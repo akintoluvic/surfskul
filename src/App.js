@@ -26,7 +26,7 @@ function App() {
           <p>Catch your first wave now</p>
         </div>
         <div id='description'>
-          <h3>Now in Bali</h3>
+          <p id='head' >Now in Bali</p>
           <p>January 9-22</p>
         </div>
       </main>
@@ -42,21 +42,28 @@ my first wave”</p>
       <div className='events' >
         <div className='each' >
           <img src={bk1} alt='city' />
-          <h5>booking closed</h5>
-          <h5>Bali</h5>
-          <p>January 9-22</p>
+          <div className='details'>
+            <p>booking closed</p>
+            <h5>Bali</h5>
+            <p>January 9-22</p>
+          </div>
+          
         </div>
         <div className='each' >
           <img src={bk1} alt='city' />
-          <h5>booking closed</h5>
-          <h5>Bali</h5>
-          <p>January 9-22</p>
+          <div className='details'>
+            <p>booking closed</p>
+            <h5>Bali</h5>
+            <p>January 9-22</p>
+          </div>
         </div>
         <div className='each' >
           <img src={bk1} alt='city' />
-          <h5>booking closed</h5>
-          <h5>Bali</h5>
-          <p>January 9-22</p>
+          <div className='details'>
+            <p>booking closed</p>
+            <h5>Bali</h5>
+            <p>January 9-22</p>
+          </div>
         </div>
       </div>
 
