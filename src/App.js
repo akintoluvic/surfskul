@@ -17,7 +17,9 @@ function App() {
           <a href='/'>Contacts</a>
         </nav>
       </header>
-      
+      <main>
+        <h1>SURF <br></br>LESSONS</h1>
+      </main>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
