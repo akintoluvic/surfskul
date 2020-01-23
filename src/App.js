@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './images/logo.png';
 import face from './images/hap.jfif';
+import board from './images/board.png';
 import './App.css';
 
 function App() {
@@ -29,13 +30,17 @@ function App() {
         </div>
       </main>
       <div className='surfer'>
-        <img src={face} alt='logo' width='90' height='90' />
+        <img src={face} alt='customer face' width='90' height='90' />
         <div className='desc'>
           <h5>Juli Star, 26y.o</h5>
           <p>“it was the best 3 hours of my life! So many emotions and 
 my first wave”</p>
         </div>
       </div>
+
+      <img src={board} className='board' alt='surf board' />
+
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
