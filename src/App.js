@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './images/logo.png';
 import face from './images/hap.jfif';
 import board from './images/board.png';
+import bk1 from './images/bk1.png';
 import './App.css';
 
 function App() {
@@ -37,6 +38,28 @@ function App() {
 my first wave”</p>
         </div>
       </div>
+
+      <div className='events' >
+        <div className='each' >
+          <img src={bk1} alt='city' />
+          <h5>booking closed</h5>
+          <h5>Bali</h5>
+          <p>January 9-22</p>
+        </div>
+        <div className='each' >
+          <img src={bk1} alt='city' />
+          <h5>booking closed</h5>
+          <h5>Bali</h5>
+          <p>January 9-22</p>
+        </div>
+        <div className='each' >
+          <img src={bk1} alt='city' />
+          <h5>booking closed</h5>
+          <h5>Bali</h5>
+          <p>January 9-22</p>
+        </div>
+      </div>
+
 
       <img src={board} className='board' alt='surf board' />
 
