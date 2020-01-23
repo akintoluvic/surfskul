@@ -19,6 +19,7 @@ function App() {
       </header>
       <main>
         <h1>SURF <br></br>LESSONS</h1>
+        <p>Catch your first wave now</p>
       </main>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
