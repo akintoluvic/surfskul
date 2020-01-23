@@ -18,9 +18,23 @@ function App() {
         </nav>
       </header>
       <main>
-        <h1>SURF <br></br>LESSONS</h1>
-        <p>Catch your first wave now</p>
+        <div id='title'>
+          <h1>SURF <br></br>LESSONS</h1>
+          <p>Catch your first wave now</p>
+        </div>
+        <div id='description'>
+          <h3>Now in Bali</h3>
+          <p>January 9-22</p>
+        </div>
       </main>
+      <div className='surfer'>
+        <img src={logo} alt='logo' />
+        <div className='desc'>
+          <h5>Juli Star, 26y.o</h5>
+          <p>“it was the best 3 hours of my life! So many emotions and 
+my first wave”</p>
+        </div>
+      </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
