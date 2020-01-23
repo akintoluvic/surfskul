@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './images/logo.png';
+import face from './images/hap.jfif';
 import './App.css';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         </div>
       </main>
       <div className='surfer'>
-        <img src={logo} alt='logo' />
+        <img src={face} alt='logo' width='90' height='90' />
         <div className='desc'>
           <h5>Juli Star, 26y.o</h5>
           <p>“it was the best 3 hours of my life! So many emotions and 

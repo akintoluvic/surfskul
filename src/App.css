@@ -1,7 +1,7 @@
 .App {
   /* text-align: center; */
-  background: url(./images/man-.jpg) no-repeat;
-  height: 120vh;
+  background: url(./images/man.jpg) no-repeat;
+  height: 100vh;
   width: 100%;
   padding: 0 140px;
   box-sizing: border-box;
@@ -69,14 +69,17 @@ main {
   font-family: Poppins;
   font-size: 12px;
   text-transform: capitalize;
-  align-items: center;
 }
 .surfer img {
   margin-right: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #FFFFFF;
 }
 .surfer h5 {
   font-size: 13px;
   margin-bottom: -7px;
+  margin-top: 10px;
 }
 
 
