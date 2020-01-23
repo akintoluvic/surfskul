@@ -5,6 +5,7 @@
   width: 100%;
   padding: 0 140px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 header {
@@ -81,6 +82,19 @@ main {
   margin-bottom: -7px;
   margin-top: 10px;
 }
+
+
+
+
+/* Animation */
+.board {
+  position: fixed;
+  right: -180px;
+  top: 65px;
+}
+
+
+
 
 
 .App-logo {
