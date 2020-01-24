@@ -3,6 +3,8 @@ import logo from './images/logo.png';
 import face from './images/hap.jfif';
 import board from './images/board.png';
 import bk1 from './images/bk1.png';
+import bk2 from './images/bk2.png';
+import bk3 from './images/bk3.png';
 
 
 const Home = () => {
@@ -53,7 +55,7 @@ my first wave”</p>
           
         </div>
         <div className='each' >
-          <img src={bk1} alt='city' />
+          <img src={bk2} alt='city' />
           <div className='details'>
             <p>booking closed</p>
             <h5>Bali</h5>
@@ -61,7 +63,7 @@ my first wave”</p>
           </div>
         </div>
         <div className='each' >
-          <img src={bk1} alt='city' />
+          <img src={bk3} alt='city' />
           <div className='details'>
             <p>booking closed</p>
             <h5>Bali</h5>
