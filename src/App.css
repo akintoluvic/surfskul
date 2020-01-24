@@ -1,11 +1,12 @@
 .App {
   /* text-align: center; */
-  background: url(./images/man-.jpg) no-repeat;
+  background: url(./images/man-r.jpg) no-repeat;
   height: 100vh;
   width: 100%;
   padding: 0 140px;
   box-sizing: border-box;
   overflow: hidden;
+  /* transform: rotate(30deg); */
 }
 
 header {
