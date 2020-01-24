@@ -95,10 +95,25 @@ main {
   position: relative;
   top: 120px;
   left: 80px;
+  text-transform: capitalize;
 }
 .events .each .details {
   margin-top: -200px;
   margin-left: 40px;
+}
+.events .each .details div {
+  position: relative;
+  width: 104;
+}
+.events .each .details p {
+  /* padding: 11px 20px; */
+  text-align: center;
+  position: relative;
+  /* height: 37px;
+  width: 164; */
+  color: #18352E;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.959);
 }
 
 

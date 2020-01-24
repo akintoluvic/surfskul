@@ -43,7 +43,10 @@ my first wave”</p>
         <div className='each' >
           <img src={bk1} alt='city' />
           <div className='details'>
-            <p>booking closed</p>
+            <div>
+              <p>booking closed</p>
+            </div>
+            
             <h5>Bali</h5>
             <p>January 9-22</p>
           </div>
